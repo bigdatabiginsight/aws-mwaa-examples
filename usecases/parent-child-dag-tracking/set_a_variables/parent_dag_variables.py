@@ -3,6 +3,10 @@ SET A - Parent DAG using VARIABLES approach.
 Triggers 6 child DAGs and tracks their execution using Airflow Variables (persistent key-value store).
 
 Compatible with MWAA 2.10.3
+
+DISCLAIMER: Proof-of-concept (POC) code for demonstration and educational purposes only.
+Not production-ready as-is. Test, secure, and optimize before any production use.
+Provided as-is, without warranty.
 """
 
 from datetime import datetime, timedelta

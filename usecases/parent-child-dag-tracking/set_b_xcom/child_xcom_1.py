@@ -2,6 +2,10 @@
 SET B - Child DAG 1 (XCom approach)
 Simulates: Data Extraction - Source A
 Pushes execution status to XCom for parent to pull.
+
+DISCLAIMER: Proof-of-concept (POC) code for demonstration and educational purposes only.
+Not production-ready as-is. Test, secure, and optimize before any production use.
+Provided as-is, without warranty.
 """
 
 from datetime import datetime, timedelta

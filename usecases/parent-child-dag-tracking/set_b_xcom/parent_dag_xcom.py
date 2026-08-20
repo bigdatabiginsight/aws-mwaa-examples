@@ -6,6 +6,10 @@ XComs are tied to the specific DAG run — no persistent state across runs.
 The parent pulls XCom values from child DAGs after they complete.
 
 Compatible with MWAA 2.10.3
+
+DISCLAIMER: Proof-of-concept (POC) code for demonstration and educational purposes only.
+Not production-ready as-is. Test, secure, and optimize before any production use.
+Provided as-is, without warranty.
 """
 
 from datetime import datetime, timedelta

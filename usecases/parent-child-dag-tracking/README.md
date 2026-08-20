@@ -1,5 +1,10 @@
 # MWAA Parent/Child DAG Tracking — Examples
 
+> ⚠️ **Proof-of-concept (POC) code — for demonstration and educational purposes only.**
+> This was built to illustrate patterns and is not production-ready as-is. Test, secure,
+> and optimize it against your own standards before any production use. Provided as-is,
+> without warranty — see the repository [LICENSE](../../LICENSE).
+
 Two working examples showing how a **parent DAG** can trigger multiple **child DAGs**
 and reliably track whether each child has executed, on **Amazon MWAA (Apache Airflow 2.10.3)**.
 

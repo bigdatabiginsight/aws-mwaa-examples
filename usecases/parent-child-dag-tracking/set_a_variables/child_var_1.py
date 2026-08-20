@@ -2,6 +2,10 @@
 SET A - Child DAG 1 (Variables approach)
 Simulates: Data Extraction - Source A
 Updates the shared Airflow Variable tracker on completion.
+
+DISCLAIMER: Proof-of-concept (POC) code for demonstration and educational purposes only.
+Not production-ready as-is. Test, secure, and optimize before any production use.
+Provided as-is, without warranty.
 """
 
 from datetime import datetime, timedelta

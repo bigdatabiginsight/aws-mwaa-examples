@@ -6,11 +6,14 @@ self-managed Airflow deployments as well.
 
 ## Disclaimer
 
-These are example code samples that demonstrate practical implementations for specific
-use cases and scenarios. They are educational examples, not supported products. Any
-application you integrate these examples into should be thoroughly tested, secured, and
-optimized according to your own security standards and policies before deploying to
-production or handling production workloads.
+> **This is proof-of-concept (POC) code, provided for demonstration and educational
+> purposes only.** It is not a supported product and is not production-ready as-is.
+
+These samples demonstrate practical implementations for specific use cases and scenarios.
+They are educational examples, not supported products. Any application you integrate
+these examples into should be thoroughly tested, secured, and optimized according to your
+own security standards and policies before deploying to production or handling production
+workloads. Use at your own risk. See the [LICENSE](LICENSE) for warranty terms.
 
 ## Use Cases
 
