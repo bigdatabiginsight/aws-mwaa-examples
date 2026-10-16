@@ -1,0 +1,14 @@
+# MWAA requirements.txt for the Deadline Alerts demo (Apache Airflow 3.2.1+).
+#
+# apache-airflow and apache-airflow-providers-standard are preinstalled on MWAA
+# 3.2.x images — do NOT pin apache-airflow itself in MWAA (it is managed by the
+# platform). Only add what the demo needs on top of the base image.
+#
+# The Slack provider is only required if you switch the callbacks over to
+# SlackWebhookNotifier (see README). The custom SNS callback uses boto3, which
+# is already present on MWAA workers, so nothing extra is needed for SNS.
+#
+# Match the provider version to your MWAA 3.2.x image's constraints file:
+# https://docs.aws.amazon.com/mwaa/latest/userguide/working-dags-dependencies.html
+
+apache-airflow-providers-slack
